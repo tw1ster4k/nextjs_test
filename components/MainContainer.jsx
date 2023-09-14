@@ -5,12 +5,14 @@ const MainContainer = ({children, keywords}) => {
   return (
     <>
     <Head>
-        <meta keywords={"pohui " + keywords}></meta>
+        <meta keywords={"lol " + keywords}></meta>
         <title>Main</title>
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
     </Head>
         <div className="navbar">
           <A href={"/"} text={"Main"}/>
           <A href={"/users"} text={"Users"}/>
+          <A href={'/form'}  text={"Form"}/>
         </div>
         <div>
             {children}
