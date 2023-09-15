@@ -1,13 +1,21 @@
-import { useState } from "react"
+import { useState, componentDidMount } from "react"
 import MainContainer from "../components/MainContainer"
 import styles from "../styles/form.module.css"
 
 const Form = () => {
     const [number, setNumber] = useState('')
     const [name, setName] = useState('')
-    
+
+  if(typeof window !== 'undefined') {
+    console.log(window.Telegram.WebApp.sendData)
+  }
+
     const submitFunction = (event) => {
         event.preventDefault()
+        if(typeof window !== 'undefined') {
+          window.Telegram.WebApp.sendData(JSON.stringify({name: name, number: number}))
+          
+        }
     }
 
   return (
