@@ -13,6 +13,7 @@ const MainContainer = ({children, keywords}) => {
           <A href={"/"} text={"Main"}/>
           <A href={"/users"} text={"Users"}/>
           <A href={'/form'}  text={"Form"}/>
+          <A href={'/reviews'} text={"Reviews"} />
         </div>
         <div>
             {children}
