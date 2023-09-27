@@ -1,3 +1,4 @@
+// не нужна
 import { useRouter } from "next/router"
 import MainContainer from "../../components/MainContainer"
 

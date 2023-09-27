@@ -1,3 +1,4 @@
+// не нужна
 import MainContainer from "../components/MainContainer"
 
 const index = () => {

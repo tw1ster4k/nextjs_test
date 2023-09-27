@@ -1,3 +1,4 @@
+// не нужна
 import Head from "next/head"
 import A from "./A"
 

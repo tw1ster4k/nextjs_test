@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.sum{
+    margin-top: 20px;
+}
+
 .container{
     max-width: 100%;
     height: auto;

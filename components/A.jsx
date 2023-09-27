@@ -1,3 +1,4 @@
+// не нужна
 import Link from "next/link"
 import styles from "../styles/A.module.css"
 
